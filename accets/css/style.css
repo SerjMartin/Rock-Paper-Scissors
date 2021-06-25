@@ -1,0 +1,13 @@
+#homePageImg {
+    background: url('../images/homePage.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 780px;
+}
+
+/* Game page */
+
+#gamePageImg {
+    background: url('../images/playGame.jpg') no-repeat center center;
+    background-size: cover;
+    height: 780px;
+}
