@@ -1,3 +1,12 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
 #homePageImg {
     background: url('../images/homePage.jpeg') no-repeat center center;
     background-size: cover;
@@ -7,6 +16,14 @@
 /* Game page */
 
 #gamePageImg {
+    background: url('../images/playGame.jpg') no-repeat center center;
+    background-size: cover;
+    height: 780px;
+}
+
+/* Contact us page */
+
+#contactUsImg {
     background: url('../images/playGame.jpg') no-repeat center center;
     background-size: cover;
     height: 780px;
