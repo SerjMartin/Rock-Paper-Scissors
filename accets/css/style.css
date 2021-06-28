@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display&family=Big+Shoulders+Stencil+Display:wght@600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,15 +7,55 @@
 
 
 #homePageImg {
-    background: url('../images/homePage.jpeg') no-repeat center center;
+    background: url('../images/homePage.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: 780px;
+    position: relative;
+}
+
+#logo {
+    width: 35%;
+    height: auto;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+
+#logo a {
+    font-size: 400%;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: chartreuse;
+    text-decoration: none;
+}
+
+
+#menu {
+    right: 3%;
+    top: 4%;
+    width: 35%;
+    height: auto;
+    margin-right: 1%;
+    position: absolute;
+}
+
+#menu li {
+    float: right;
+    margin-right: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu a {
+    font-size: 250%;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: chartreuse;
 }
 
 /* Game page */
 
 #gamePageImg {
-    background: url('../images/playGame.jpg') no-repeat center center;
+    background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 780px;
 }
@@ -24,7 +63,7 @@
 /* Contact us page */
 
 #contactUsImg {
-    background: url('../images/playGame.jpg') no-repeat center center;
+    background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 780px;
 }
