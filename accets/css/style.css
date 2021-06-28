@@ -9,7 +9,7 @@
 #homePageImg {
     background: url('../images/homePage.jpeg') no-repeat center center fixed;
     background-size: cover;
-    height: 780px;
+    height: 720px;
     position: relative;
 }
 
@@ -17,7 +17,7 @@
     width: 35%;
     height: auto;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 3%;
 }
 
@@ -52,12 +52,29 @@
     color: chartreuse;
 }
 
+#playButton {
+    font-size: 150%;
+    color: chartreuse;
+    position: absolute;
+    bottom: 40%;
+    left: 47%;
+}
+
+#footer {
+    font-size: 150%;
+    color: chartreuse;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+}
+
+
 /* Game page */
 
 #gamePageImg {
     background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 780px;
+    height: 720px;
 }
 
 /* Contact us page */
@@ -65,5 +82,5 @@
 #contactUsImg {
     background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 780px;
+    height: 720px;
 }
