@@ -118,9 +118,9 @@
     height: 720px;
     position: relative;
 }
-
+/* Game Rules section */
 #leftDiv {
-    width: 49%;
+    width: 44%;
     height: 60%;
     float: left;
     margin-top: 7%;
@@ -139,7 +139,7 @@
 #leftDiv h2 {
     font-size: 300%;
     color: rgb(255, 30, 0);
-    margin-left: 15%;
+    margin-left: 10%;
     padding-top: 10%;
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-weight: bolder;
@@ -148,7 +148,7 @@
 #leftDiv li {
     font-size: 200%;
     color: rgb(255, 30, 0);
-    margin-left: 20%;
+    margin-left: 15%;
     font-family: 'Big Shoulders Inline Display', cursive;
     font-weight: bolder;
 }
@@ -157,12 +157,21 @@
     font-size: 100%; 
 }
 
-
+/* Game section */
 #rightDiv {
-    width: 50%;
+    width: 55%;
     height: 60%;
     float: right;
     margin-top: 7%;
+}
+
+#rightDivIn {
+    background-color: rgba(255, 187, 0, .6);
+    height: 100%;
+    background-size: cover;
+    margin: 0 10% 0 7%;
+    border: 10px solid;
+    border-style: inset;
 }
 
 /* Contact us page */
