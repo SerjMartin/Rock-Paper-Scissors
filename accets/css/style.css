@@ -145,7 +145,7 @@
 
 #nameEmail {
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 
 label {
@@ -157,7 +157,7 @@ label {
 #nameDiv {
     width: 20%;
     float: left; 
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 20%;
 }
 
@@ -172,7 +172,7 @@ label {
 #emailDiv {
     width: 20%;
     float: right; 
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 20%;
 }
 
@@ -186,7 +186,7 @@ label {
 
 #messageDiv {
     width: 70%;
-    height: 100px;
+    height: auto;
     margin-left: 15%;
     margin-bottom: 10%;
 }
@@ -196,4 +196,25 @@ label {
     background-color: ivory;
     border: 8px solid;
     border-style: inset;
+}
+
+
+#submit {
+    width: 20%;
+    height: 50px;
+    background-color: ivory;
+    border: 8px solid;
+    border-style: inset;
+    margin-left: 40%;
+    bottom: 15%;
+    position: absolute;font-family: 'Big Shoulders Inline Display', cursive;
+    font-weight: bolder;
+    font-size: 150%;
+    color: rgb(26, 194, 102);
+    text-align: center;
+
+}
+
+#submit:hover {
+    background-color: rgb(255, 30, 0);;
 }
