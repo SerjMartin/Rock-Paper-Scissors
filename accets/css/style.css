@@ -29,6 +29,9 @@
     text-decoration: none;
 }
 
+#logo a:hover {
+    color: rgb(255, 30, 0);
+}
 
 #menu {
     right: 3%;
@@ -51,6 +54,11 @@
     font-family: 'Big Shoulders Stencil Display', cursive;
     color: chartreuse;
 }
+
+#menu a:hover {
+    color: rgb(255, 30, 0);
+}
+
 
 #playButton button{
     width: 20%;
