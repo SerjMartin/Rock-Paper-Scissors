@@ -52,13 +52,25 @@
     color: chartreuse;
 }
 
-#playButton {
+#playButton button{
+    width: 20%;
+    height: 60px;
     font-size: 150%;
-    color: chartreuse;
+    font-weight: bolder;
+    color: rgb(255, 30, 0);
     position: absolute;
-    bottom: 40%;
-    left: 47%;
+    bottom: 35%;
+    left: 40%;
+    border: 10px;
+    border-style: inset;
+    background-color: transparent;
+    border-color:rgb(255, 30, 0);
 }
+
+#playButton button:hover {
+     background-color: chartreuse;
+}
+
 
 #footer {
     font-size: 150%;
