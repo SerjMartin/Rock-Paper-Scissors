@@ -39,7 +39,7 @@
 
 #menu {
     right: 3%;
-    top: 4%;
+    top: 3%;
     width: 35%;
     height: auto;
     margin-right: 1%;
@@ -116,6 +116,7 @@
     background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 720px;
+    position: relative;
 }
 
 /* Contact us page */
@@ -124,4 +125,20 @@
     background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 720px;
+    position: relative;
+}
+
+#contactDiv {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 8%;
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-weight: bolder;
+    font-size: 250%;
+    color: rgb(26, 194, 102);
+    text-align: center;
+    background-color: ivory;
+    border: 8px solid;
+    border-style: inset;
 }
