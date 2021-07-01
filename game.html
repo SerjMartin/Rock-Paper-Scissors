@@ -48,45 +48,47 @@
 
     <div id="rightDiv">
         <div id="rightDivIn">
-            <h3>
+            <h2>
                 Play Game
-            </h3>
-            <div>
-                <div>
-                   Rock
+            </h2>
+            <div id="gameButtons">
+                <button>
+                    <i id="icon" class="fas fa-hand-rock"></i>
+                </button>
+
+                <button>
+                    <i id="icon" class="fas fa-hand-paper"></i>
+                </button>
+
+                <button> 
+                    <i id="icon" class="fas fa-hand-scissors"></i>
+                </button>
+            </div>
+
+            <div id="choiseDiv">
+                <div id="guest">
+                    
                 </div>
 
-                <div>
-                   Paper
+                <div id="gameResult">
+                    <p id="resultP"></p>
                 </div>
 
-                <div>
-                   Scissors
+                <div id="computer">
+                    
                 </div>
             </div>
 
-            <div>
-                <div>
-                    Guest choice
-                </div>
+            <button id="submitButton" data-type="submit">Submit Answer</button>
 
-                <div>
-                    Game result
-                </div>
+            <div id="resultDiv">
+                <p id="scores">
+                    - You Won<span id="won">0</span>
+                </p>
 
-                <div>
-                    Computer choice
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    Guest points
-                </div>
-
-                <div>
-                    Computer points
-                </div>
+                <p id="scores">
+                    - You Lost<span id="lost">0</span>
+                </p>
                 
             </div>
 
