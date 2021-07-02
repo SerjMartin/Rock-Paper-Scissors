@@ -333,6 +333,10 @@ label {
     border-style: inset;
 }
 
+#nameDiv input:hover {
+    border-color: rgb(26, 194, 102);
+}
+
 #emailDiv {
     width: 20%;
     float: right; 
@@ -348,6 +352,10 @@ label {
     border-style: inset;
 }
 
+#emailDiv input:hover {
+    border-color: rgb(26, 194, 102);
+}
+
 #messageDiv {
     width: 70%;
     height: auto;
@@ -360,6 +368,10 @@ label {
     background-color: ivory;
     border: 8px solid;
     border-style: inset;
+}
+
+#messageDiv textarea:hover {
+    border-color: rgb(26, 194, 102);
 }
 
 
@@ -381,4 +393,5 @@ label {
 
 #submit:hover {
     background-color: rgb(255, 30, 0);
+    border-color: rgb(26, 194, 102);
 }
