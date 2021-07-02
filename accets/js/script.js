@@ -10,15 +10,21 @@ document.addEventListener("DOMContentLoadet", function() {
 })
 
 
-      const rock = document.getElementById("rockButton");
-      const paper = document.getElementById("paperButton");
-      const scissors = document.getElementById("scissorsButton");
-      let guest = document.getElementById("guest");
+let object = ['<i id="icon" class="fas fa-hand-rock"></i>', '<i id="icon" class="fas fa-hand-scissors"></i>', '<i id="icon" class="fas fa-hand-paper"></i>'];
+let guest = document.getElementById("guest");
       
 
 function guestChoice() {
      guest.innerHTML ='<i id="icon" class="fas fa-hand-rock"></i>';
 } 
+
+function guestChoiceA() {
+    guest.innerHTML = '<i id="icon" class="fas fa-hand-paper"></i>';
+}
+
+function guestChoiceB() {
+    guest.innerHTML = '<i id="icon" class="fas fa-hand-scissors"></i>';
+}
 
 
 function checkAnswer() {
