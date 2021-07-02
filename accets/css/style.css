@@ -206,6 +206,16 @@
     color: rgb(255, 30, 0);
 }
 
+#guest {
+    font-size: 200%;
+    color: rgb(255, 30, 0);
+}
+
+#computer i {
+    font-size: 200%;
+    color: rgb(255, 30, 0);
+}
+
 /* Choise div style */
 #choiseDiv {
     width: 100%;

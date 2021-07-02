@@ -52,15 +52,15 @@
                 Play Game
             </h2>
             <div id="gameButtons">
-                <button>
-                    <i id="icon" class="fas fa-hand-rock"></i>
+                <button onclick="guestChoice()">
+                    <i id="rockButton" id="icon" class="fas fa-hand-rock"></i>
                 </button>
 
-                <button>
+                <button id="paperButton">
                     <i id="icon" class="fas fa-hand-paper"></i>
                 </button>
 
-                <button> 
+                <button id="scissorsButton"> 
                     <i id="icon" class="fas fa-hand-scissors"></i>
                 </button>
             </div>
@@ -71,11 +71,11 @@
                 </div>
 
                 <div id="gameResult">
-                    <p id="resultP"></p>
+                    <span id="resultP"></span>
                 </div>
 
-                <div id="computer">
-                    
+                <div>
+                    <span id="computer"></span>
                 </div>
             </div>
 

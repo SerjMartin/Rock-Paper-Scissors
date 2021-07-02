@@ -9,9 +9,17 @@ document.addEventListener("DOMContentLoadet", function() {
     }
 })
 
-function guestChoise() {
-    
-}
+
+      const rock = document.getElementById("rockButton");
+      const paper = document.getElementById("paperButton");
+      const scissors = document.getElementById("scissorsButton");
+      let guest = document.getElementById("guest");
+      
+
+function guestChoice() {
+     guest.innerHTML ='<i id="icon" class="fas fa-hand-rock"></i>';
+} 
+
 
 function checkAnswer() {
 
