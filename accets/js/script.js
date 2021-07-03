@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoadet", function() {
+document.addEventListener("DOMContentLoadet", function () {
     let button = document.getElementsByTagName("button");
     for (let button of buttons) {
-        button.addEventListener("click", function() {
+        button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
                 checkAnswer();
             }
@@ -12,11 +12,15 @@ document.addEventListener("DOMContentLoadet", function() {
 
 let object = ['<i id="icon" class="fas fa-hand-rock"></i>', '<i id="icon" class="fas fa-hand-scissors"></i>', '<i id="icon" class="fas fa-hand-paper"></i>'];
 let guest = document.getElementById("guest");
-      
+let compChoice = document.getElementById("computer");
+
+    index = Math.floor(Math.random() * 3);
+    compChoice.innerHTML = object[index];
+
 
 function guestChoice() {
-     guest.innerHTML ='<i id="icon" class="fas fa-hand-rock"></i>';
-} 
+    guest.innerHTML = '<i id="icon" class="fas fa-hand-rock"></i>';
+}
 
 function guestChoiceA() {
     guest.innerHTML = '<i id="icon" class="fas fa-hand-paper"></i>';
