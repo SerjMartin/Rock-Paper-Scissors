@@ -52,15 +52,15 @@
                 Play Game
             </h2>
             <div id="gameButtons">
-                <button onclick="guestChoice()">
+                <button onclick="guestChoice(), resetGame()">
                     <i id="rockButton" id="icon" class="fas fa-hand-rock"></i>
                 </button>
 
-                <button id="paperButton" onclick="guestChoiceA()">
+                <button id="paperButton" onclick="guestChoiceA(), resetGame()">
                     <i id="icon" class="fas fa-hand-paper"></i>
                 </button>
 
-                <button id="scissorsButton" onclick="guestChoiceB()"> 
+                <button id="scissorsButton" onclick="guestChoiceB(), resetGame()"> 
                     <i id="icon" class="fas fa-hand-scissors"></i>
                 </button>
             </div>
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <button id="submitButton" data-type="submit">Submit Answer</button>
+            <button id="submitButton" onclick="comChoise(), checkAnswer()" data-type="submit">Submit Answer</button>
 
             <div id="resultDiv">
                 <p id="scores">
