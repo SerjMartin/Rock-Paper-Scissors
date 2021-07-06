@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoadet", function () {
 })
 
 
-let object = ['<i id="icon" class="fas fa-hand-rock"></i>', '<i id="icon" class="fas fa-hand-scissors"></i>', '<i id="icon" class="fas fa-hand-paper"></i>'];
+let object = ['<i id="icon" class="fas fa-hand-rock" aria-hidden="true"></i>', '<i id="icon" class="fas fa-hand-scissors" aria-hidden="true"></i>', '<i id="icon" class="fas fa-hand-paper" aria-hidden="true"></i>'];
 let guest = document.getElementById("guest");
 let compChoice = document.getElementById("computer");
 let result = document.getElementById("resultP");
@@ -44,6 +44,7 @@ function resetGame() {
 
 function checkAnswer() {
        if (guest.innerHTML == rock && compChoice.innerHTML == paper) {
+           console.log(guest.innerHTML);
            result.innerText= "You Lost!!";
            incrementWrongScore();
        }  else if (guest.innerHTML == scissors && compChoice.innerHTML == rock) {
