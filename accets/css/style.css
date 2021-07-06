@@ -252,7 +252,6 @@
     font-weight: 900;
     font-size: 170%;
     color: rgb(255, 30, 0);
-    margin-top: 35px;
 }
 
 #computer {
@@ -408,4 +407,41 @@ label {
 #submit:hover {
     background-color: rgb(255, 30, 0);
     border-color: rgb(26, 194, 102);
+}
+
+/* Media queries */
+/* Media screen size from 1100px wide and down */
+
+@media screen  and (max-width: 1100px){
+    
+    #logo a {
+        font-size: 300%;
+    }
+
+    #menu a {
+        font-size: 220%;
+    }
+
+    #gameResult {
+        width: 50%;
+    }
+
+    #scores {
+        display: inline-block;
+        margin-left: 10%;
+        font-size: 180%;
+    }
+
+    #leftDiv h2 {
+        font-size: 280%;
+    }
+    
+    #leftDiv li {
+        font-size: 180%;
+        margin-left: 10%;
+    }
+    
+    #leftDiv i {
+        font-size: 80%; 
+    }
 }
