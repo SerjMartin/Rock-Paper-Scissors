@@ -445,3 +445,75 @@ label {
         font-size: 80%; 
     }
 }
+
+/* Media screen size from 920px wide and down */
+
+@media screen  and (max-width: 920px) {
+
+    #menu li {
+        margin-right: 20px;
+    }
+    
+    #menu a {
+        font-size: 150%;
+    }
+
+    #leftDiv {
+        width: 70%;
+        height: 30%;
+        float: left;
+        margin-top: 7%;
+        margin-left: 15%;
+        padding-bottom: 50px;
+        border-bottom: 8px solid rgb(255, 187, 0);
+        border-right: none;
+    }
+
+    #rightDiv {
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+        height: 40%;
+        margin-top: 30px;
+        
+    }
+
+    #gamePageImg {
+        background: url('../images/playGame.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 1200px;
+        position: relative;
+    }
+
+    #leftDivIn {
+        margin: 0 0 10% 0;
+    }
+
+    #rightDivIn {
+       margin: 0;
+    }
+
+    #emailDiv {
+        width: 30%;
+        margin-right: 15%;
+    }
+
+    #nameDiv {
+        width: 30%;
+        margin-left: 15%;
+    }
+}
+
+/* Media screen size from 807px wide and down */
+
+@media screen  and (max-width: 807px) {
+    #logo {
+        width: 50%;
+        margin-left: 1%;
+    }
+    
+    
+    #logo a {
+        font-size: 250%;
+    }
+}
