@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoadet", function () {
     let buttons = document.getElementsByTagName("button");
+    console.log(buttons);
+    
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") == "submit") {
