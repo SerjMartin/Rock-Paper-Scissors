@@ -118,7 +118,7 @@
     height: 720px;
     position: relative;
 }
-/* Game Rules section */
+/* Game page  rules section */
 #leftDiv {
     width: 44%;
     height: 60%;
@@ -413,7 +413,7 @@ label {
 /* Media screen size from 1100px wide and down */
 
 @media screen  and (max-width: 1100px){
-    
+    /* Home page media screen size from 1100px */
     #logo a {
         font-size: 300%;
     }
@@ -449,7 +449,7 @@ label {
 /* Media screen size from 920px wide and down */
 
 @media screen  and (max-width: 920px) {
-
+    /* Home page media screen size from 920px */
     #menu li {
         margin-right: 20px;
     }
@@ -457,7 +457,7 @@ label {
     #menu a {
         font-size: 150%;
     }
-
+    /* Game page media screen size from 920px */
     #leftDiv {
         width: 70%;
         height: 30%;
@@ -479,10 +479,7 @@ label {
     }
 
     #gamePageImg {
-        background: url('../images/playGame.jpg') no-repeat center center fixed;
-        background-size: cover;
         height: 1200px;
-        position: relative;
     }
 
     #leftDivIn {
@@ -507,6 +504,8 @@ label {
 /* Media screen size from 807px wide and down */
 
 @media screen  and (max-width: 807px) {
+
+    /* Home page media screen size from 807px */
     #logo {
         width: 50%;
         margin-left: 1%;
@@ -525,26 +524,8 @@ label {
 /* Media screen size from 672px wide and down */
 
 @media screen  and (max-width: 672px) {
-    #leftDiv {
-        width: 100%;
-        height: 30%;
-        margin-left: 0;
-        float: left;
-        margin-top: 7%;
-        padding-bottom: 50px;
-        border-bottom: 8px solid rgb(255, 187, 0);
-        border-right: none;
-    }
-
-    #rightDiv {
-        width: 100%;
-        margin-left: 0;
-        float: left;
-        height: 40%;
-        margin-top: 30px;
-        
-    }
-
+   
+    /* Home page media screen sise 672px */
     #footer {
         margin-left: 0;
         width: 100%;
@@ -558,6 +539,11 @@ label {
         width: 50%;
         bottom: 35%;
         left: 24%;
+    }
+
+    #submitButton {
+        width: 50%;
+        margin-left: 25%; 
     }
 
     #logo {
@@ -588,6 +574,17 @@ label {
         font-size: 180%;
     }
 
+    /* Game page  media screen size from 672px*/
+
+    #rightDiv {
+        width: 100%;
+        margin-left: 0;
+        float: left;
+        height: 40%;
+        margin-top: 30px;
+        
+    }
+
     #leftDiv {
         width: 100%;
         height: 24%;
@@ -600,5 +597,55 @@ label {
         width: 31%;
         margin-left: 1%;
     }
+
+    /* Contact us page media screen size from 672px */
+    #contactDiv {
+        width: 40%;
+        margin-left: 29%;
+        margin-top: 20%;
+        height: 40px;
+        font-size: 180%;
+
+    }
     
+    #nameEmail {
+        width: 100%;
+        height: 150px;
+    }
+    
+    #nameDiv {
+        width: 40%;
+        float: left; 
+        margin-left: 4%;
+    }
+    
+    #emailDiv {
+        width: 40%;
+        float: right; 
+        margin-right: 4%;
+    }
+    
+    #messageDiv {
+        width: 90%;
+        margin-left: 4%;
+    }
+    
+    
+    #submit {
+        width: 50%;
+        margin-left: 24%;
+    }
+}
+@media screen  and (max-width: 410px) {
+   
+    /* Home page media screen sise 410px */
+    #gameResult {
+        width: 60%;
+        margin-top: 40px;
+        text-align: left;
+    }
+    
+    #resultP {
+        font-size: 150%;
+    }
 }
