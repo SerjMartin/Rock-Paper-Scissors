@@ -9,7 +9,7 @@
 #homePageImg {
     background: url('../images/homePage.jpeg') no-repeat center center fixed;
     background-size: cover;
-    height: 720px;
+    height: 800px;
     position: relative;
 }
 
@@ -87,6 +87,7 @@
 #footer {
     width: 50%;
     height: 50px;
+    margin-top: 100%;
     position: absolute;
     bottom: 0;
     margin-left: 25%;
@@ -115,7 +116,7 @@
 #gamePageImg {
     background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 720px;
+    height: 800px;
     position: relative;
 }
 /* Game page  rules section */
@@ -301,7 +302,7 @@
 #contactUsImg {
     background: url('../images/playGame.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 720px;
+    height: 800px;
     position: relative;
 }
 
@@ -334,7 +335,7 @@ label {
 #nameDiv {
     width: 20%;
     float: left; 
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: 20%;
 }
 
@@ -353,7 +354,7 @@ label {
 #emailDiv {
     width: 20%;
     float: right; 
-    margin-top: 3%;
+    margin-top: 4%;
     margin-right: 20%;
 }
 
@@ -374,6 +375,7 @@ label {
     height: auto;
     margin-left: 15%;
     margin-bottom: 10%;
+    margin-top: 2%;
 }
 
 #messageDiv textarea {
@@ -395,7 +397,7 @@ label {
     border: 8px solid;
     border-style: inset;
     margin-left: 40%;
-    bottom: 15%;
+    bottom: 17%;
     position: absolute;font-family: 'Big Shoulders Inline Display', cursive;
     font-weight: bolder;
     font-size: 150%;
