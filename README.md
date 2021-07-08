@@ -33,7 +33,7 @@
 
 <a name="tehnologies"></a>
 ## Tehnologies Used
-
+![Responsice Mockup](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-mockup-game.png)
  -__Balsmiq Wireframe__
 
 
