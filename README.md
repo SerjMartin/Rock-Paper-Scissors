@@ -21,15 +21,25 @@
    ### Existing Features
    -__Navigation Bar__
    
+   ![Navigation Bar](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-navigation-bar.png)
    -__Play Game Button__
+
+   ![Play game button](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-play-game-button.png)
 
    -__Footer__
 
-   -__Rules Section__
+   ![Footer](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-footer.png)
 
+   -__Rules Section__
+   
+   ![Rules section](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-rules-section.png)
    -__Play Game Section__
 
+   ![Play game section](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-play-game.png)
+
    -__Contact Us Section__
+
+   ![Contact us section](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-contact-us.png)
 
 <a name="tehnologies"></a>
 ## Tehnologies Used
