@@ -31,6 +31,10 @@ It is very easy to navigate around this website, find the rules, play the game a
    
    ![Navigation Bar](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-navigation-bar.png)
 
+  - This section will aloud us easy to navigate to all three pages includes links to the home page, play game page and contact us page.
+The logo serves as a home page link so the user can find the way back if needed. 
+Navigation links are changing the colour in red when hovered over, this lets the user know that is clickable.
+
    -__Play Game Button__
 
    ![Play game button](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-play-game-button.png)
