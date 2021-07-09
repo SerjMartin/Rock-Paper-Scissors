@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
      for (let button of buttons) {
-        button.addEventListener("click", function () {
+        button.addEventListener("click", function() {
             if (this.getAttribute("data-type") == "submit") {
-                checkAnswer();
                 comChoice();
+                checkAnswer();
             } else if (this.getAttribute("data-type") == "guest-rock") {
                 guestChoiceRock();
                 resetGame();
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 guestChoiceScissors();
                 resetGame();
             }
-        });
+        })
     }
 });
 
@@ -53,30 +53,42 @@ function resetGame() {
 
 
 function checkAnswer() {
-       if (guest.innerHTML == rock && compChoice.innerHTML == paper) {
+       if (guest.innerHTML === rock && compChoice.innerHTML === paper) {
            result.innerText = "You Lost!!";
            incrementWrongScore();
-       }  else if (guest.innerHTML == scissors && compChoice.innerHTML == rock) {
+           playAgain();
+       }  else if (guest.innerHTML === scissors && compChoice.innerHTML === rock) {
            result.innerText = "You Lost!!";
            incrementWrongScore();
-       } else if (guest.innerHTML == paper && compChoice.innerHTML == scissors) {
+           playAgain();
+       } else if (guest.innerHTML === paper && compChoice.innerHTML === scissors) {
           result.innerText = "You Lost!!";
           incrementWrongScore();
-       } else if (guest.innerHTML == scissors && compChoice.innerHTML == paper) {
+          playAgain();
+       } else if (guest.innerHTML === scissors && compChoice.innerHTML === paper) {
             result.innerText = "You Won!!";
             incrementScore();
-       } else if (guest.innerHTML == rock && compChoice.innerHTML == scissors) {
+            playAgain();
+       } else if (guest.innerHTML === rock && compChoice.innerHTML === scissors) {
             result.innerText = "You Won!!";
             incrementScore();
-       } else if (guest.innerHTML == paper && compChoice.innerHTML == rock) {
+            playAgain();
+       } else if (guest.innerHTML === paper && compChoice.innerHTML === rock) {
             result.innerText = "You Won!!";
             incrementScore();
-       }  else if (guest.innerHTML == compChoice.innerHTML) {
+            playAgain()
+       }  else if (guest.innerHTML === compChoice.innerHTML) {
         result.innerText = "It's tie!!";
+        playAgain();
        } else { 
         result.innerText = "Make your choise!";
+        playAgain();
        }
 
+}
+
+function playAgain() {
+   document.getElementById("submitButton").innerText = "Play Again";
 }
 
 function incrementScore() {

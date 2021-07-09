@@ -60,7 +60,7 @@
                     <i class="fas fa-hand-paper icon"></i>
                 </button>
 
-                <button id="scissorsButton" data-type="guest-scissor" onclick="guestChoiceScissors(), resetGame()"> 
+                <button id="scissorsButton" data-type="guest-scissor"> 
                     <i class="fas fa-hand-scissors icon"></i>
                 </button>
             </div>
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <button id="submitButton" data-type="submit">Submit Answer</button>
+            <button id="submitButton" data-type="submit" onclick="checkAnswer()">Submit Answer</button>
 
             <div id="resultDiv">
                 <p id="scores">
