@@ -52,15 +52,15 @@
                 Play Game
             </h2>
             <div id="gameButtons">
-                <button id="rockButton"  onclick="guestChoiceRock(), resetGame()">
+                <button id="rockButton" data-type="guest-rock">
                     <i class="fas fa-hand-rock icon"></i>
                 </button>
 
-                <button id="paperButton" onclick="guestChoicePaper(), resetGame()">
+                <button id="paperButton" data-type="guest-paper">
                     <i class="fas fa-hand-paper icon"></i>
                 </button>
 
-                <button id="scissorsButton" onclick="guestChoiceScissors(), resetGame()"> 
+                <button id="scissorsButton" data-type="guest-scissor" onclick="guestChoiceScissors(), resetGame()"> 
                     <i class="fas fa-hand-scissors icon"></i>
                 </button>
             </div>

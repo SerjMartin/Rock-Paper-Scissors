@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.getAttribute("data-type") == "submit") {
                 checkAnswer();
                 comChoice();
+            } else if (this.getAttribute("data-type") == "guest-rock") {
+                guestChoiceRock();
+                resetGame();
+            } else if (this.getAttribute("data-type") == "guest-paper") {
+                guestChoicePaper();
+                resetGame();
+            } else if (this.getAttribute("data-type") == "guest-scissor") {
+                guestChoiceScissors();
+                resetGame();
             }
         });
     }
@@ -45,28 +54,27 @@ function resetGame() {
 
 function checkAnswer() {
        if (guest.innerHTML == rock && compChoice.innerHTML == paper) {
-           console.log(guest.innerHTML);
-           result.innerText= "You Lost!!";
+           result.innerText = "You Lost!!";
            incrementWrongScore();
        }  else if (guest.innerHTML == scissors && compChoice.innerHTML == rock) {
-           result.innerText= "You Lost!!";
+           result.innerText = "You Lost!!";
            incrementWrongScore();
        } else if (guest.innerHTML == paper && compChoice.innerHTML == scissors) {
-          result.innerText= "You Lost!!";
+          result.innerText = "You Lost!!";
           incrementWrongScore();
        } else if (guest.innerHTML == scissors && compChoice.innerHTML == paper) {
-            result.innerText= "You Won!!";
+            result.innerText = "You Won!!";
             incrementScore();
        } else if (guest.innerHTML == rock && compChoice.innerHTML == scissors) {
-            result.innerText= "You Won!!";
+            result.innerText = "You Won!!";
             incrementScore();
        } else if (guest.innerHTML == paper && compChoice.innerHTML == rock) {
-            result.innerText= "You Won!!";
+            result.innerText = "You Won!!";
             incrementScore();
        }  else if (guest.innerHTML == compChoice.innerHTML) {
-        result.innerText= "It's tie!!";
+        result.innerText = "It's tie!!";
        } else { 
-        result.innerText= "Make your choise!";
+        result.innerText = "Make your choise!";
        }
 
 }
