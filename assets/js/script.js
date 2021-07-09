@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") == "submit") {
                 checkAnswer();
+                comChoice();
             }
         });
     }
