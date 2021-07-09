@@ -78,8 +78,8 @@
     bottom: 35%;
     left: 40%;
     border: 10px;
+    background-color: ivory;
     border-style: inset;
-    background-color: transparent;
     border-color:#ff1e00;
 }
 
@@ -133,7 +133,7 @@
 }
 
 #leftDivIn {
-    background-color: #ffbb0099;
+    background-color: #ffbb00;
     height: 100%;
     background-size: cover;
     margin: 0 10% 0 10%;
@@ -170,7 +170,7 @@
 }
 
 #rightDivIn {
-    background-color: #ffbb0099;
+    background-color: #ffbb00;
     height: 100%;
     background-size: cover;
     margin: 0 10% 0 7%;
