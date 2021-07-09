@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoadet", function () {
+document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
     console.log(buttons);
     
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoadet", function () {
 })
 
 
-let object = ['<i id="icon" class="fas fa-hand-rock" aria-hidden="true"></i>', '<i id="icon" class="fas fa-hand-scissors" aria-hidden="true"></i>', '<i id="icon" class="fas fa-hand-paper" aria-hidden="true"></i>'];
+let object = ['<i class="fas fa-hand-rock icon" aria-hidden="true"></i>', '<i class="fas fa-hand-scissors icon" aria-hidden="true"></i>', '<i class="fas fa-hand-paper icon" aria-hidden="true"></i>'];
 let guest = document.getElementById("guest");
 let compChoice = document.getElementById("computer");
 let result = document.getElementById("resultP");
@@ -26,15 +26,15 @@ let rock = object[0];
 let scissors = object[1];
 let paper = object[2];
 
-function guestChoice() {
+function guestChoiceRock() {
     guest.innerHTML = rock;
 }
 
-function guestChoiceA() {
+function guestChoicePaper() {
     guest.innerHTML = paper;
 }
 
-function guestChoiceB() {
+function guestChoiceScossors() {
     guest.innerHTML = scissors;
 }
 

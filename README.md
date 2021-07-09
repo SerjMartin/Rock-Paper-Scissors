@@ -7,15 +7,14 @@ The game was created to release a bit of stress all while having fun.
 It is very easy to navigate around this website, find the rules, play the game and if any users have any comments they can contact us.
 
 ## Table of Contents
-   - [User experiense(#UX)](#UX)
+   - [User experiense](#user-experriense)
    - [Features](#features)
-   - [Tehnologies Used](#tehnologies)
+   - [Tehnologies Used](#tehnologies-used)
    - [Testing](#testing)
    - [Deployment](#deployment)
    - [Credit](#credit)
 
- <a name="UX"></a>
- ## User Experriense (UX)
+ ## User Experriense
 
 #### As a user.
     . I want easily understand the layout of the site.
@@ -23,13 +22,12 @@ It is very easy to navigate around this website, find the rules, play the game a
     . I want to easily navigate and to have fun achieving points.
     . I want to be able to leave comments. 
 
-<a name="features"></a>
 ## Features
 
    ### Existing Features
    -__Navigation Bar__
-   
-   ![Navigation Bar](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-navigation-bar.png)
+
+![Navigation Bar](assets/images/optimizednavigation-bar.png)
 
   - This section will aloud us easy to navigate to all three pages includes links to the home page, play game page and contact us page.
 The logo serves as a home page link so the user can find the way back if needed. 
@@ -37,27 +35,26 @@ Navigation links are changing the colour in red when hovered over, this lets the
 
    -__Play Game Button__
 
-   ![Play game button](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-play-game-button.png)
+   ![Play game button](assets/images/optimizedplay-game-button.png)
 
    -__Footer__
 
-   ![Footer](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-footer.png)
+   ![Footer](assets/images/optimizedfooter.png)
 
    -__Rules Section__
    
-   ![Rules section](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-rules-section.png)
+   ![Rules section](assets/images/optimizedrules-section.png)
 
    -__Play Game Section__
 
-   ![Play game section](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-play-game.png)
+   ![Play game section](assets/images/optimizedplay-game.png)
 
    -__Contact Us Section__
 
-   ![Contact us section](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-contact-us.png)
+   ![Contact us section](assets/images/optimizedcontact-us.png)
 
-<a name="tehnologies"></a>
 ## Tehnologies Used
-![Responsice Mockup](https://github.com/SerjMartin/Rock-Paper-Scissors/blob/master/accets/images/Optimized-mockup-game.png)
+![Responsice Mockup](assets/images/optimizedmockup-game.png)
 
  -__Balsmiq Wireframe__
 
@@ -72,10 +69,9 @@ Navigation links are changing the colour in red when hovered over, this lets the
   * CSS
   * JavaScript
 
-<a name="testing"></a>
 ## Testing
 
-## Validator Testing
+### Validator Testing
 
 ## Deployment
 

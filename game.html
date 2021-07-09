@@ -8,13 +8,13 @@
     This game  is based solely on chance and quick thinking">
     <meta name="keywords" content="game, rock, paper, scissors">
 
-    <link rel="stylesheet" href="accets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock, Paper, Scossors!</title>
 </head>
 <body id="gamePageImg">
     <div id="logo">
         <a href="index.html">
-            <i id="icon" class="fas fa-hand-rock"></i>Rock, <i id="icon" class="fas fa-hand-paper"></i>Paper, <i id="icon" class="fas fa-hand-scissors"></i>Scissors!
+            <i class="fas fa-hand-rock icon"></i>Rock, <i class="fas fa-hand-paper icon"></i>Paper, <i class="fas fa-hand-scissors icon"></i>Scissors!
         </a>
     </div> 
     <div id="menu">
@@ -23,7 +23,7 @@
                 <a href="contactus.html">Contact Us</a>
             </li>
             <li>
-                <a href="game.html">Pay Game</a>
+                <a href="game.html" class="active">Play Game</a>
             </li>
         </ul>
     </div>
@@ -34,13 +34,13 @@
             <br>
             <ul>
                 <li>
-                     <i id="icon" class="fas fa-hand-rock"></i>Rock - smashes - <i id="icon" class="fas fa-hand-scissors"></i>Scissors
+                     <i class="fas fa-hand-rock icon"></i>Rock - smashes - <i class="fas fa-hand-scissors icon"></i>Scissors
                 </li>
                 <li>
-                     <i id="icon" class="fas fa-hand-scissors"></i>Scissors - cuts - <i id="icon" class="fas fa-hand-paper"></i>Paper
+                     <i class="fas fa-hand-scissors icon"></i>Scissors - cuts - <i class="fas fa-hand-paper icon"></i>Paper
                 </li>
                 <li>
-                     <i id="icon" class="fas fa-hand-paper"></i>Paper - cover - <i id="icon" class="fas fa-hand-rock"></i>Rock
+                     <i class="fas fa-hand-paper icon"></i>Paper - cover - <i class="fas fa-hand-rock icon"></i>Rock
                  </li>
             </ul>
         </div>
@@ -52,16 +52,16 @@
                 Play Game
             </h2>
             <div id="gameButtons">
-                <button onclick="guestChoice(), resetGame()">
-                    <i id="rockButton" id="icon" class="fas fa-hand-rock"></i>
+                <button id="rockButton" onclick="guestChoiceRock(), resetGame()">
+                    <i class="fas fa-hand-rock icon"></i>
                 </button>
 
-                <button id="paperButton" onclick="guestChoiceA(), resetGame()">
-                    <i id="icon" class="fas fa-hand-paper"></i>
+                <button id="paperButton" onclick="guestChoicePaper(), resetGame()">
+                    <i class="fas fa-hand-paper icon"></i>
                 </button>
 
-                <button id="scissorsButton" onclick="guestChoiceB(), resetGame()"> 
-                    <i id="icon" class="fas fa-hand-scissors"></i>
+                <button id="scissorsButton" onclick="guestChoiceScissors(), resetGame()"> 
+                    <i class="fas fa-hand-scissors icon"></i>
                 </button>
             </div>
 
@@ -83,11 +83,11 @@
 
             <div id="resultDiv">
                 <p id="scores">
-                    - You Won<span id="won">0</span>
+                    - You Won  <span id="won">0</span>
                 </p>
 
                 <p id="scores">
-                    - You Lost<span id="lost">0</span>
+                    - You Lost  <span id="lost">0</span>
                 </p>
                 
             </div>

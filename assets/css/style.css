@@ -25,16 +25,16 @@
 #logo a {
     font-size: 400%;
     font-family: 'Big Shoulders Stencil Display', cursive;
-    color: chartreuse;
+    color: #7fff00;
     text-decoration: none;
 }
 
-#icon {
+.icon {
     font-size: 50%;
 }
 
 #logo a:hover {
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
 }
 
 #menu {
@@ -56,11 +56,15 @@
 #menu a {
     font-size: 250%;
     font-family: 'Big Shoulders Stencil Display', cursive;
-    color: chartreuse;
+    color: #7fff00;
 }
 
 #menu a:hover {
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
+}
+
+.active {
+    border-bottom: 2px solid #ff1e00;
 }
 
 
@@ -69,18 +73,18 @@
     height: 60px;
     font-size: 150%;
     font-weight: bolder;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     position: absolute;
     bottom: 35%;
     left: 40%;
     border: 10px;
     border-style: inset;
     background-color: transparent;
-    border-color:rgb(255, 30, 0);
+    border-color:#ff1e00;
 }
 
 #playButton button:hover {
-     background-color: chartreuse;
+     background-color: #ffbb0099;;
 }
 
 
@@ -102,19 +106,19 @@
 
 
 #footer a {
-    font-size: 250%;
-    color: chartreuse;
+    font-size: 300%;
+    color: #7fff00;
 }
 
 #footer a:hover {
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
 }
 
 
 /* Game page */
 
 #gamePageImg {
-    background: url('../images/playGame.jpg') no-repeat center center fixed;
+    background: url('../images/playgame.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 800px;
     position: relative;
@@ -125,11 +129,11 @@
     height: 60%;
     float: left;
     margin-top: 7%;
-    border-right: 8px solid rgb(255, 187, 0);
+    border-right: 8px solid #ffbb00;
 }
 
 #leftDivIn {
-    background-color: rgba(255, 187, 0, .6);
+    background-color: #ffbb0099;
     height: 100%;
     background-size: cover;
     margin: 0 10% 0 10%;
@@ -139,7 +143,7 @@
 
 #leftDiv h2 {
     font-size: 300%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     margin-left: 10%;
     padding-top: 10%;
     font-family: 'Big Shoulders Stencil Display', cursive;
@@ -147,7 +151,7 @@
 
 #leftDiv li {
     font-size: 200%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     margin-left: 15%;
     font-family: 'Big Shoulders Inline Display', cursive;
     font-weight: bolder;
@@ -166,7 +170,7 @@
 }
 
 #rightDivIn {
-    background-color: rgba(255, 187, 0, .6);
+    background-color: #ffbb0099;
     height: 100%;
     background-size: cover;
     margin: 0 10% 0 7%;
@@ -176,7 +180,7 @@
 
 #rightDivIn h2 {
     font-size: 300%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     text-align: center;
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-weight: bolder;
@@ -194,29 +198,28 @@
     margin-top: 20px;
     border: 8px solid;
     border-style: inset;
-    background-color: ivory;
+    background-color: #fffff0;
 }
 
 #gameButtons button:hover {
-    background-color: rgb(9, 209, 43);
-    border-color: rgb(255, 30, 0);
+    border-color: #ff1e00;
 }
 
 #gameButtons i {
     font-size: 200%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
 }
 
 #guest i {
     font-size: 200%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     margin-top: 20px;
     margin-left: 20px;
 }
 
 #computer i {
     font-size: 200%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -232,7 +235,7 @@
 #guest {
     width: 70px;
     height: 70px;
-    background-color: ivory;
+    background-color: #fffff0;
     left: 15px;
     top: 15px;
     border: 8px solid;
@@ -252,13 +255,13 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 170%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
 }
 
 #computer {
     width: 70px;
     height: 70px;
-    background-color: ivory;
+    background-color: #fffff0;
     right: 15px;
     top: 15px;
     border: 8px solid;
@@ -272,14 +275,13 @@
     margin-left: 35%; 
     border: 8px solid;
     border-style: inset;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     font-weight: bolder; 
     font-size: 100%;
 }
 
 #submitButton:hover {
-    background-color: rgb(9, 209, 43);
-    border-color: rgb(255, 30, 0);
+    border-color: #ff1e00;
 }
 
 /* Result div style */
@@ -293,14 +295,14 @@
     display: inline-block;
     margin-left: 13%;
     font-size: 200%;
-    color: rgb(255, 30, 0);
+    color: #ff1e00;
     font-weight: bolder;
 }
 
 /* Contact us page */
 
 #contactUsImg {
-    background: url('../images/playGame.jpg') no-repeat center center fixed;
+    background: url('../images/playgame.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 800px;
     position: relative;
@@ -314,9 +316,9 @@
     font-family: 'Big Shoulders Inline Display', cursive;
     font-weight: bolder;
     font-size: 250%;
-    color: rgb(26, 194, 102);
+    color: #1ac266;
     text-align: center;
-    background-color: ivory;
+    background-color: #fffff0;
     border: 8px solid;
     border-style: inset;
 }
@@ -328,7 +330,7 @@
 
 label {
     font-size: 150%;
-    color: chartreuse;
+    color: #7fff00;
     font-weight: bolder;
 }
 
@@ -342,13 +344,13 @@ label {
 #nameDiv input {
     width: 100%;
     height: 40px;
-    background-color: ivory;
+    background-color: #fffff0;
     border: 8px solid;
     border-style: inset;
 }
 
 #nameDiv input:hover {
-    border-color: rgb(26, 194, 102);
+    border-color: #ff1e00;
 }
 
 #emailDiv {
@@ -361,13 +363,13 @@ label {
 #emailDiv input {
     width: 100%;
     height: 40px;
-    background-color: ivory;
+    background-color: #fffff0;
     border: 8px solid;
     border-style: inset;
 }
 
 #emailDiv input:hover {
-    border-color: rgb(26, 194, 102);
+    border-color: #ff1e00;
 }
 
 #messageDiv {
@@ -380,20 +382,20 @@ label {
 
 #messageDiv textarea {
     width: 100%;
-    background-color: ivory;
+    background-color: #fffff0;
     border: 8px solid;
     border-style: inset;
 }
 
 #messageDiv textarea:hover {
-    border-color: rgb(26, 194, 102);
+    border-color: #ff1e00;
 }
 
 
 #submit {
     width: 20%;
     height: 50px;
-    background-color: ivory;
+    background-color: #fffff0;
     border: 8px solid;
     border-style: inset;
     margin-left: 40%;
@@ -401,14 +403,14 @@ label {
     position: absolute;font-family: 'Big Shoulders Inline Display', cursive;
     font-weight: bolder;
     font-size: 150%;
-    color: rgb(26, 194, 102);
+    color: #1ac266;
     text-align: center;
 
 }
 
 #submit:hover {
-    background-color: rgb(255, 30, 0);
-    border-color: rgb(26, 194, 102);
+    border-color: #ff1e00;
+    color: #ff1e00;
 }
 
 /* Media queries */
@@ -467,7 +469,7 @@ label {
         margin-top: 7%;
         margin-left: 15%;
         padding-bottom: 50px;
-        border-bottom: 8px solid rgb(255, 187, 0);
+        border-bottom: 8px solid #ffbb00;
         border-right: none;
     }
 
