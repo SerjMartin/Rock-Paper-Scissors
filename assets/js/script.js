@@ -1,23 +1,21 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
-    console.log(buttons);
-    
-    for (let button of buttons) {
+     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") == "submit") {
-                comChoise();
+                
             }
         })
     }
 })
 
 
-let object = ['<i class="fas fa-hand-rock icon" aria-hidden="true"></i>', '<i class="fas fa-hand-scissors icon" aria-hidden="true"></i>', '<i class="fas fa-hand-paper icon" aria-hidden="true"></i>'];
+let object = ['<i class="fas fa-hand-rock icon"></i>', '<i class="fas fa-hand-paper icon"></i>', '<i class="fas fa-hand-scissors icon"></i>'];
 let guest = document.getElementById("guest");
 let compChoice = document.getElementById("computer");
 let result = document.getElementById("resultP");
 
-function comChoise() {
+function comChoice() {
     index = Math.floor(Math.random() * 3);
     compChoice.innerHTML = object[index];
 }
