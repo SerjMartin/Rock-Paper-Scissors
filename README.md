@@ -57,11 +57,17 @@ When hovered over the background change the colour in orange it,s serve to lets 
 
    ![Play game section](assets/images/play-game-section.png)
 
-   - 
+   - This section is designed where the users can play the game.
+This section including user choice, computer choice and points achieved.
+All clickable buttons styled with a red border when hovered over.
+The "Submit Game" button is changing in "Play Again "after how the user starts the game to let the user know that this game still going and he can make his next choice.
 
    -__Contact Us Section__
 
    ![Contact us section](assets/images/optimizedcontact-us.png)
+
+   - Contact Us page is where the user can leave their comments.
+All input boxes are styled with red borders when hovered over, it,s help the user to see what box he is selecting.
 
 ## Tehnologies Used
 ![Responsice Mockup](assets/images/mockup.png)
