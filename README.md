@@ -44,6 +44,8 @@ When hovered over the background change the colour in orange it,s serve to lets 
 
    ![Footer](assets/images/optimizedfooter.png)
 
+   - Footer has been designed to be at the bottom of the page, it,s contains social media icons changing colour in red when hovered over and is an external social link that is opening in a new tab.
+
    -__Rules Section__
    
    ![Rules section](assets/images/optimizedrules-section.png)
