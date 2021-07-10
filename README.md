@@ -27,7 +27,7 @@ It is very easy to navigate around this website, find the rules, play the game a
    ### Existing Features
    -__Navigation Bar__
 
-![Navigation Bar](assets/images/optimizednavigation-bar.png)
+![Navigation Bar](assets/images/header.png)
 
   - This section will aloud us easy to navigate to all three pages includes links to the home page, play game page and contact us page.
 The logo serves as a home page link so the user can find the way back if needed. 
@@ -35,10 +35,10 @@ Navigation links are changing the colour in red when hovered over, this lets the
 
    -__Play Game Button__
 
-   ![Play game button](assets/images/optimizedplay-game-button.png)
+   ![Play game button](assets/images/play-game-button.png)
 
   - Play Game button is designed for the user to link to the Game page! 
-When hovered over the background change the colour in orange it,s serve to lets the user know that it is clickable. Button's borders are stylet red colour to be easily spotted by the user if he/she wants to go straight to the game page. 
+When hovered over the background change the colour in orange it,s serve to lets the user know that it is clickable. Button's borders are styled red colour to be easily spotted by the user if he/she wants to go straight to the game page. 
 
    -__Footer__
 
@@ -48,18 +48,20 @@ When hovered over the background change the colour in orange it,s serve to lets 
 
    -__Rules Section__
    
-   ![Rules section](assets/images/optimizedrules-section.png)
+   ![Rules section](assets/images/rules-section.png)
+
+   - The rules section is designed to explain to users the Game rules and is styled with an orange background with red writing inside, this combination of colours helps to improve the contrast of the red writing.
 
    -__Play Game Section__
 
-   ![Play game section](assets/images/optimizedplay-game.png)
+   ![Play game section](assets/images/play-game-section.png)
 
    -__Contact Us Section__
 
    ![Contact us section](assets/images/optimizedcontact-us.png)
 
 ## Tehnologies Used
-![Responsice Mockup](assets/images/optimizedmockup-game.png)
+![Responsice Mockup](assets/images/mockup.png)
 
  -__Balsmiq Wireframe__
 
