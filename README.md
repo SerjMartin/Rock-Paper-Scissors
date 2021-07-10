@@ -37,6 +37,9 @@ Navigation links are changing the colour in red when hovered over, this lets the
 
    ![Play game button](assets/images/optimizedplay-game-button.png)
 
+  - Play Game button is designed for the user to link to the Game page! 
+When hovered over the background change the colour in orange it,s serve to lets the user know that it is clickable. Button's borders are stylet red colour to be easily spotted by the user if he/she wants to go straight to the game page. 
+
    -__Footer__
 
    ![Footer](assets/images/optimizedfooter.png)
