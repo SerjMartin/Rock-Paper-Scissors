@@ -21,6 +21,7 @@ It is very easy to navigate around this website, find the rules, play the game a
     . I want to be able to use the website on any device.
     . I want to easily navigate and to have fun achieving points.
     . I want to be able to leave comments. 
+    . I want to be able easily to understand the game.
 
 ## Features
 
@@ -55,6 +56,8 @@ When hovered over the background change the colour in orange it,s serve to lets 
    -__Play Game Section__
 
    ![Play game section](assets/images/play-game-section.png)
+
+   - 
 
    -__Contact Us Section__
 
