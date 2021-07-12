@@ -67,13 +67,16 @@
     border-bottom: 2px solid #ff1e00;
 }
 
+.playButtonA {
+    text-decoration: none;
+    font-size: 170%;
+    font-weight: bolder;
+    color: #ff1e00;
+}
 
 #playButton button{
     width: 20%;
     height: 60px;
-    font-size: 150%;
-    font-weight: bolder;
-    color: #ff1e00;
     position: absolute;
     bottom: 35%;
     left: 40%;

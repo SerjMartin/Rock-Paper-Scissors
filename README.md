@@ -89,6 +89,12 @@ All input boxes are styled with red borders when hovered over, it,s help the use
 
 ### Validator Testing
 
+ - HTML Home Page
+   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Findex.html#textarea)
+
+ - HTML Game Page
+   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fgame.html)
+
 ## Deployment
 
 ## Media
