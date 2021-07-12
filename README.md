@@ -119,7 +119,7 @@ This project used the following colours
    ![CSS](assets/images/css-validator.png)
 
  - JavaScript.
-  - One warning returnet when passing https://jshint.com
+   - One warning returnet when passing https://jshint.com
 
   ![Java Script](assets/images/java-script-validator.png)
 
@@ -144,8 +144,14 @@ This project used the following colours
 
 
  -  ## Content
+   - All code was written by the author - Sergiu Lupascu
 
- 
+- ## Acknowledgement
+  - The idea for this project was taken from Project Portfolio 2 (Example Idea N1).
+  - Thank you to everyone who took their time to provide me with constructive feedback on the Slack community app.
+  - Big thanks to my mentor 'Tim Nelson'
+
+
 
 
 
