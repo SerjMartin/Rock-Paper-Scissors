@@ -119,7 +119,8 @@ This project used the following colours
    ![CSS](assets/images/css-validator.png)
 
  - JavaScript.
-   - One warning returnet when passing https://jshint.com
+   - One warning returnet when passing https://jshint.com (Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (comChoice, checkAnswer, guestChoiceRock, resetGame, guestChoicePaper, guestChoiceScissors).
+
 
   ![Java Script](assets/images/java-script-validator.png)
 
@@ -141,15 +142,22 @@ This project used the following colours
    - Under the Repository's name locate the "Code" button.
    - To clone the Repository use the HTTPS link.
 
+### Media
 
+  - All images were taken from [Depositphotos](https://depositphotos.com/198371674/stock-photo-close-clash-rock-paper-scissors.html).
+  - Hands icons were taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2).
 
- -  ## Content
-   - All code was written by the author - Sergiu Lupascu
+ ## Content
+   - All code was written by the author - Sergiu Lupascu.
+   - To write up in README file most helpful were
 
-- ## Acknowledgement
+       - My mentor Tim Nelson.
+       - Code institute [SampleReadme](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
+
+## Acknowledgement
   - The idea for this project was taken from Project Portfolio 2 (Example Idea N1).
   - Thank you to everyone who took their time to provide me with constructive feedback on the Slack community app.
-  - Big thanks to my mentor 'Tim Nelson'
+  - Big thanks to my mentor 'Tim Nelson' for his time to answer all my questions and his professional advice.
 
 
 
