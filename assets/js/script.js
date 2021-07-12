@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
+let index ;
 let object = ['<i class="fas fa-hand-rock icon" aria-hidden="true"></i>', '<i class="fas fa-hand-scissors icon" aria-hidden="true"></i>', '<i class="fas fa-hand-paper icon" aria-hidden="true"></i>'];
 let guest = document.getElementById("guest");
 let compChoice = document.getElementById("computer");
