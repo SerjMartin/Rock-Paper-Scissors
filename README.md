@@ -76,6 +76,8 @@ All input boxes are styled with red borders when hovered over, it,s help the use
 
 
 ### Fonts
+ - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - Font awesome was used to add social icons and complect the design
+ - [Google Fonts](https://fonts.google.com/) - Google Fonts Was used to import 'Big Shoulders Stencil Display' and 'Big Shoulders Inline Display' fonts in the main.css stylesheet
 
 ### Colors
 
@@ -99,7 +101,9 @@ All input boxes are styled with red borders when hovered over, it,s help the use
    - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fcontactus.html)
 
  - CSS
-   - No errors returned when passing through [W£C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - No errors returned when passing through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+ - JavaScript 
 
 ## Deployment
 
