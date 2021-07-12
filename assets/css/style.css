@@ -7,7 +7,7 @@
 
  /* Home page style */
 #homePageImg {
-    background: url('../images/homePage.jpeg') no-repeat center center fixed;
+    background: url('../images/homepage.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: 800px;
     position: relative;
@@ -51,6 +51,7 @@
     margin-right: 40px;
     text-align: center;
     list-style-type: none;
+    background-color: black;
 }
 
 #menu a {
@@ -105,12 +106,14 @@
     list-style-type: none;
     margin-right: 20%;
     text-align: center;
+
 }
 
 
 #footer a {
     font-size: 320%;
     color: #7fff00;
+    background-color: black;
 }
 
 #footer a:hover {
@@ -121,7 +124,7 @@
 /* Game page */
 
 #gamePageImg {
-    background: url('../images/playgame.jpg') no-repeat center center fixed;
+    background: url('../images/homepage1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 800px;
     position: relative;
@@ -136,12 +139,13 @@
 }
 
 #leftDivIn {
-    background-color: #ffbb00;
+    background-color: #fde4a0;
     height: 100%;
     background-size: cover;
     margin: 0 10% 0 10%;
     border: 10px solid;
     border-style: inset;
+    border-color: darkgray;
 }
 
 #leftDiv h2 {
@@ -173,12 +177,13 @@
 }
 
 #rightDivIn {
-    background-color: #ffbb00;
+    background-color: #fde4a0;
     height: 100%;
     background-size: cover;
     margin: 0 10% 0 7%;
     border: 10px solid;
     border-style: inset;
+    border-color: darkgray;
 }
 
 #rightDivIn h2 {
@@ -201,6 +206,7 @@
     margin-top: 20px;
     border: 8px solid;
     border-style: inset;
+    border-color: darkgray;
     background-color: #fffff0;
 }
 
@@ -243,6 +249,7 @@
     top: 15px;
     border: 8px solid;
     border-style: inset;
+    border-color: darkgray;
     position: absolute;
 }
 
@@ -269,6 +276,7 @@
     top: 15px;
     border: 8px solid;
     border-style: inset;
+    border-color: darkgray;
     position: absolute;
 }
 
@@ -278,6 +286,7 @@
     margin-left: 35%; 
     border: 8px solid;
     border-style: inset;
+    border-color: darkgray;
     color: #ff1e00;
     font-weight: bolder; 
     font-size: 100%;
@@ -305,10 +314,11 @@
 /* Contact us page */
 
 #contactUsImg {
-    background: url('../images/playgame.jpg') no-repeat center center fixed;
+    background: url('../images/homepage1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 800px;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #contactDiv {
@@ -333,7 +343,7 @@
 
 label {
     font-size: 150%;
-    color: #7fff00;
+    color: #79fa00;
     font-weight: bolder;
 }
 

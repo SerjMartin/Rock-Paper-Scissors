@@ -1,3 +1,5 @@
+/* jshint esversion:8 */
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
      for (let button of buttons) {
@@ -15,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 guestChoiceScissors();
                 resetGame();
             }
-        })
+        });
     }
 });
 
@@ -76,7 +78,7 @@ function checkAnswer() {
        } else if (guest.innerHTML === paper && compChoice.innerHTML === rock) {
             result.innerText = "You Won!!";
             incrementScore();
-            playAgain()
+            playAgain();
        }  else if (guest.innerHTML === compChoice.innerHTML) {
         result.innerText = "It's tie!!";
         playAgain();

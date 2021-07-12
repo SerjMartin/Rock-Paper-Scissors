@@ -17,11 +17,11 @@ It is very easy to navigate around this website, find the rules, play the game a
  ## User Experriense
 
 #### As a user.
-    . I want easily understand the layout of the site.
-    . I want to be able to use the website on any device.
-    . I want to easily navigate and to have fun achieving points.
-    . I want to be able to leave comments. 
-    . I want to be able easily to understand the game.
+- I want easily understand the layout of the site.
+- I want to be able to use the website on any device.
+- I want to easily navigate and to have fun achieving points.
+- I want to be able to leave comments. 
+- I want to be able easily to understand the game.
 
 ## Features
 
