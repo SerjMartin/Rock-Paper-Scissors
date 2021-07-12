@@ -94,22 +94,29 @@ All input boxes are styled with red borders when hovered over, it,s help the use
  - HTML Home Page.
    - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Findex.html).
 
-   ![HTML Home page](assets/image/html-home-page-validator.png).
+
+   ![HTML Home page](assets/images/html-home-page-validator.png)
 
  - HTML Game Page.
    - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fgame.html).
 
-   ![HTML Game Page](assets/image/
-   )
+
+   ![HTML Game Page](assets/images/html-game-page-validator.png)
 
  - HTML Contact Us Page.
    - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fcontactus.html).
 
+   ![HTML Contact us page](assets/images/html-contact-us-validator.png)
+
  - CSS.
    - No errors returned when passing through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
+   ![CSS](assets/images/css-validator.png)
+
  - JavaScript.
   - One warning returnet when passing https://jshint.com
+
+  ![Java Script](assets/images/java-script-validator.png)
 
 ## Deployment
  This website was published using [GitHub Page](https://github.com/SerjMartin/). The procedure is outlined below.
