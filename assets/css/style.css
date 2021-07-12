@@ -291,7 +291,7 @@
     margin-top: 30px;
 }
 
-#scores {
+.scores {
     display: inline-block;
     margin-left: 13%;
     font-size: 200%;
@@ -430,7 +430,7 @@ label {
         width: 50%;
     }
 
-    #scores {
+    .scores {
         display: inline-block;
         margin-left: 10%;
         font-size: 180%;
