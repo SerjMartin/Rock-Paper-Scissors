@@ -50,13 +50,13 @@ When hovered over the background change the colour in orange it,s serve to lets 
 
    -__Rules Section__
    
-   ![Rules section](assets/images/rules-section.png)
+   ![Rules section](assets/images/rules-sectiona.jpg)
 
    - The rules section is designed to explain to users the Game rules and is styled with an orange background with red writing inside, this combination of colours helps to improve the contrast of the red writing.
 
    -__Play Game Section__
 
-   ![Play game section](assets/images/play-game-section.png)
+   ![Play game section](assets/images/playgamea.jpg)
 
    - This section is designed where the users can play the game.
 This section including user choice, computer choice and points achieved.
@@ -65,7 +65,7 @@ The "Submit Game" button is changing in "Play Again "after how the user starts t
 
    -__Contact Us Section__
 
-   ![Contact us section](assets/images/optimizedcontact-us.png)
+   ![Contact us section](assets/images/contact-us-a.jpg)
 
    - Contact Us page is where the user can leave their comments.
 All input boxes are styled with red borders when hovered over, it,s help the user to see what box he is selecting.
@@ -80,7 +80,12 @@ All input boxes are styled with red borders when hovered over, it,s help the use
  - [Google Fonts](https://fonts.google.com/) - Google Fonts Was used to import 'Big Shoulders Stencil Display' and 'Big Shoulders Inline Display' fonts in the main.css stylesheet.
 
 ### Colors
-
+This project used the following colours
+ - #7fff00 for Logo and Labels.
+ - #ff1e00 for buttons borders when hovering over.
+ - #fffff0 for background colour buttons and inputs.
+ - #fde4a0 for the Rules and Play Game section's background colour
+- #a9a9a9 for borders colour
 ### Languages
 
   * HTML
