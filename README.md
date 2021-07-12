@@ -6,6 +6,7 @@ Rock, Paper, Scissors is a simple game that is played between two people. This g
 The game was created to release a bit of stress all while having fun.
 It is very easy to navigate around this website, find the rules, play the game and if any users have any comments they can contact us.
 
+![Responsice Mockup](assets/images/mockup.png)
 ## Table of Contents
    - [User experiense](#user-experriense)
    - [Features](#features)
@@ -70,7 +71,6 @@ The "Submit Game" button is changing in "Play Again "after how the user starts t
 All input boxes are styled with red borders when hovered over, it,s help the user to see what box he is selecting.
 
 ## Tehnologies Used
-![Responsice Mockup](assets/images/mockup.png)
 
  -__Balsmiq Wireframe__
 
@@ -128,6 +128,13 @@ All input boxes are styled with red borders when hovered over, it,s help the use
   - Scroll down until you see "GitHub Page" then under the source click on the dropdown and select "master branch".
   - The site will reload and you will see the link to your published page displayed under "GitHub Page" when the background of the lick changes to a green clour, it's mean that your site is published.
 
+### Cloning
+  
+  If you wish to clone this repository you can follow the following steps below.
+   - Go to the Git Hub website and log in.
+   - Locate the [Repository](https://github.com/SerjMartin/Rock-Paper-Scissors) used for this project.
+   - Under the Repository's name locate the "Code" button.
+   - To clone the Repository use the HTTPS link.
 
 ## Media
 
