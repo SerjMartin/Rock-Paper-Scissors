@@ -51,7 +51,6 @@
     margin-right: 40px;
     text-align: center;
     list-style-type: none;
-    background-color: black;
 }
 
 #menu a {
@@ -70,15 +69,18 @@
 
 .playButtonA {
     text-decoration: none;
-    font-size: 170%;
+    font-size: 200%;
     font-weight: bolder;
     color: #ff1e00;
+    background-color: ivory;
 }
 
-#playButton button{
+
+#playButton {
     width: 20%;
-    height: 60px;
+    height: 50px;
     position: absolute;
+    text-align: center;
     bottom: 35%;
     left: 40%;
     border: 10px;
@@ -87,14 +89,14 @@
     border-color:#ff1e00;
 }
 
-#playButton button:hover {
-     background-color: #ffbb0099;;
+#playButton:hover {
+     border-color: chartreuse;
 }
 
 
 #footer {
     width: 50%;
-    height: 50px;
+    height: auto;
     margin-top: 100%;
     position: absolute;
     bottom: 0;
@@ -111,13 +113,16 @@
 
 
 #footer a {
-    font-size: 320%;
+    font-size: 340%;
     color: #7fff00;
-    background-color: black;
 }
 
 #footer a:hover {
     color: #ff1e00;
+}
+
+.background-black {
+    background-color: black;
 }
 
 
@@ -533,7 +538,7 @@ label {
         font-size: 250%;
     }
 
-    #playButton button{
+    #playButton {
         width: 30%;
     }
 }
@@ -552,7 +557,7 @@ label {
         margin-right: 18%;
     }
 
-    #playButton button{
+    #playButton {
         width: 50%;
         bottom: 35%;
         left: 24%;
