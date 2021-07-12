@@ -13,7 +13,7 @@ It is very easy to navigate around this website, find the rules, play the game a
    - [Tehnologies Used](#tehnologies-used)
    - [Testing](#testing)
    - [Deployment](#deployment)
-   - [Credit](#credit)
+   - [Content](#content)
 
  ## User Experriense
 
@@ -77,7 +77,7 @@ All input boxes are styled with red borders when hovered over, it,s help the use
 
 ### Fonts
  - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - Font awesome was used to add social icons and complect the design.
- - [Google Fonts](https://fonts.google.com/) - Google Fonts Was used to import 'Big Shoulders Stencil Display' and 'Big Shoulders Inline Display' fonts in the main.css stylesheet.
+ - [Google Fonts](https://fonts.google.com/) - Google Fonts Was used to import '[Big Shoulders Stencil Display](https://fonts.google.com/?query=Big+Shoulders+Stencil+Display)' and '[Big Shoulders Inline Display](https://fonts.google.com/?query=Big+Shoulders+Inline+Display)' fonts in the main.css stylesheet.
 
 ### Colors
 This project used the following colours
@@ -141,11 +141,11 @@ This project used the following colours
    - Under the Repository's name locate the "Code" button.
    - To clone the Repository use the HTTPS link.
 
-## Media
 
-## Credit
 
-  ### Content
+ -  ## Content
+
+ 
 
 
 
