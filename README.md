@@ -76,8 +76,8 @@ All input boxes are styled with red borders when hovered over, it,s help the use
 
 
 ### Fonts
- - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - Font awesome was used to add social icons and complect the design
- - [Google Fonts](https://fonts.google.com/) - Google Fonts Was used to import 'Big Shoulders Stencil Display' and 'Big Shoulders Inline Display' fonts in the main.css stylesheet
+ - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - Font awesome was used to add social icons and complect the design.
+ - [Google Fonts](https://fonts.google.com/) - Google Fonts Was used to import 'Big Shoulders Stencil Display' and 'Big Shoulders Inline Display' fonts in the main.css stylesheet.
 
 ### Colors
 
@@ -91,21 +91,30 @@ All input boxes are styled with red borders when hovered over, it,s help the use
 
 ### Validator Testing
 
- - HTML Home Page
-   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Findex.html#textarea)
+ - HTML Home Page.
+   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Findex.html#textarea).
 
- - HTML Game Page
-   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fgame.html)
+ - HTML Game Page.
+   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fgame.html).
 
- - HTML Contact Us Page
-   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fcontactus.html)
+ - HTML Contact Us Page.
+   - No errors returned when passing through [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2Fcontactus.html).
 
- - CSS
-   - No errors returned when passing through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ - CSS.
+   - No errors returned when passing through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fserjmartin.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
- - JavaScript 
+ - JavaScript.
 
 ## Deployment
+ This website was published using [GitHub Page](https://github.com/SerjMartin/). The procedure is outlined below.
+
+  - Go to GitHub website and log in.
+
+  - Select the appropriate [Repositorie](https://github.com/SerjMartin/Rock-Paper-Scissors) (used for this project).
+  - Under the name of your Repository click on "Settings" located on the right-hand side.
+  - Scroll down until you see "GitHub Page" then under the source click on the dropdown and select "master branch".
+  - The site will reload and you will see the link to your published page displayed under "GitHub Page" when the background of the lick changes to a green clour, it's mean that your site is published.
+
 
 ## Media
 
