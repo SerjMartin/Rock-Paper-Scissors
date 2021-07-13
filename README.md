@@ -72,7 +72,19 @@ All input boxes are styled with red borders when hovered over, it,s help the use
 
 ## Tehnologies Used
 
- -__Balsmiq Wireframe__
+ __Balsmiq Wireframe__
+
+  - Home wireframe 
+
+  ![Home](assets/images/home-wireframe.png)
+  
+  - Game Page wireframe
+
+  ![game page](assets/images/game-wireframe.png)
+
+  - Contact Us wireframe
+
+  ![contact us](assets/images/contacy-us-wireframe.png)
 
 
 ### Fonts
